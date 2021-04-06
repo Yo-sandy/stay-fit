@@ -1,0 +1,37 @@
+.bg-color{
+  background-color:#1e1d1d;
+  overflow: hidden;
+}
+.shape{
+  padding-top:100px;
+}
+.shape h1{
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+}
+/*********************************************** Join Now Button css */
+.btn-join{
+  margin-top: 20px;
+}
+.btn-join:hover {
+  box-shadow: 0 0 0 18px transparent;
+  animation: pulse 1s;
+}
+@keyframes pulse {
+  from {
+    box-shadow: 0 0 0 0 var(--iq-primary);
+  }
+}
+/********************************************** Join Now Button css close*/
+/********************************************** Brand Logo css */
+.brand-logo{
+  padding: 20px;
+  background-color: #0d0e0f;
+  box-shadow: inset 0px 8px 25px -10px gray;
+}
+.brand-logo img{
+  max-width:150px;
+  color: white;
+  margin-right: 10px;
+}
