@@ -23,12 +23,15 @@
   </div>
   <div class="row">
     <div class="brand-logo text-center">
-      <img src="/brand-img/adidas-logo-1.png" alt="">
-      <img src="/brand-img/1200px-Reebok_2019_logo.svg.png" alt="">
-      <img src="/brand-img/nike-png.png" alt="">
-      <img src="/brand-img/puma-png-logo.png" alt="">
+      <img src="/brand-img/adidas-logo-1.png" alt="" class="img-fluid">
+      <img src="/brand-img/1200px-Reebok_2019_logo.svg.png" alt="" class="img-fluid">
+      <img src="/brand-img/nike-png.png" alt="" class="img-fluid">
+      <img src="/brand-img/puma-png-logo.png" alt="" class="img-fluid">
     </div>
   </div>
+  <front-our-services/>
+  <front-about-us-comp/>
+  <front-our-classes/>
 </div>
 </template>
 
