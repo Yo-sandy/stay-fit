@@ -19,6 +19,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     "bootstrap/dist/css/bootstrap.css",
+    'vueperslides/dist/vueperslides.css',
     '~/assets/main.css'
   ],
 

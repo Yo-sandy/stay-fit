@@ -1,3 +1,15 @@
+@media screen and (max-width: 600px) {
+  .brand-logo img{
+    max-width:100px;
+    margin-right: 150px;
+    margin-left: 142px;
+  }
+  .our-service-card{
+    padding: 10px!important;
+    margin: 10px;
+    border-radius: 100px;
+  }
+}
 .bg-color{
   background-color:#1e1d1d;
   overflow: hidden;
@@ -34,21 +46,18 @@
   max-width:150px;
   padding-bottom: 5px ;
 }
-@media screen and (max-width: 600px) {
-  .brand-logo img{
-    max-width:100px;
-    margin-right: 150px;
-    margin-left: 142px;
-  }
-  .sheet-body{
-    max-width: 1000px;
-  }
-}
 /********************************************** Brand Logo css close */
 /********************************************** Our Services css */
-.our-services-section{
-  padding: 100px 0;
+.our-services-section .container{
+  width: 95%;
 }
+ .our-service-card{
+   background-color: #131313;
+   padding: 30px;
+   margin: 80px;
+   border-radius: 10px;
+ }
+/* In with media query use*/
 .services-heading h2{
   text-align: center;
   color: var(--iq-primary);
@@ -60,15 +69,8 @@
  .sheet-body{
    background-color:#1e1d1d!important;
 }
-
-.mdi.mdi-chevron-left::before{
-  color:red!important;
-}
-.mdi.mdi-chevron-right::before{
-  color:red!important;
-}
-.card-img-top{
-  max-width: 250px;
+.our-service-img{
+  max-width: 500px;
   height: 180px;
   border-radius: 20px;
 }
@@ -88,15 +90,5 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.classes-img img{
-  position: relative;
-  border-radius: 40px;
-  width: 100%;
-  max-height: 40%;
-}
-.classes-img .play-btn{
-  position: absolute;
-  color: var(--iq-primary);
-  right: 50px;
-  z-index: 1000;
-}
+
+

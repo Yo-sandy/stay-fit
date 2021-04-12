@@ -6,23 +6,12 @@
             <h2 >Our Classes</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
-        <div class="col-md-4">
-        <div class="classes-img">
-          <img src="/gym-fitness-girl-workout.jpg" class="img-fluid" alt="">
-          <i class="far fa-play-circle play-btn"></i>
+        <div>
+          <div class="classes-img text-center">
+            <LazyYoutube src="https://www.youtube.com/watch?v=qVPCGH9EZ0U"
+                         aspectRatio="16:9"
+                         maxWidth="1000px"/>
         </div>
-        </div>
-        <div class="col-md-4">
-          <div class="classes-img">
-            <img src="/gym-fitness-girl-workout.jpg" class="img-fluid" alt="">
-            <i class="far fa-play-circle play-btn"></i>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="classes-img">
-            <img src="/gym-fitness-girl-workout.jpg" class="img-fluid" alt="">
-            <i class="far fa-play-circle play-btn"></i>
-          </div>
         </div>
       </div>
     </div>
@@ -30,8 +19,12 @@
 </template>
 
 <script>
+import { LazyYoutube, } from "vue-lazytube";
 export default {
-  name: "our-classes"
+  name: "our-classes",
+  components: {
+    LazyYoutube,
+  },
 }
 </script>
 
