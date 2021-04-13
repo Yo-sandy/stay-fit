@@ -48,8 +48,8 @@
 }
 /********************************************** Brand Logo css close */
 /********************************************** Our Services css */
-.our-services-section .container{
-  width: 95%;
+.our-services-section{
+    padding: 15px;
 }
  .our-service-card{
    background-color: #131313;
@@ -90,5 +90,9 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
+/********************************************** Our Classes css close*/
+/********************************************** Our Trainer css*/
+.trainer-icon i{
+  margin-right: 10px;
+}
 

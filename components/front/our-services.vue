@@ -5,15 +5,17 @@
         <h2>OUR SERVICES</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
       </div>
-        <div class="container">
-          <div class="row">
+        <div >
+          <v-sheet
+               class="container"
+               max-width="1100"
+              color="#1e1d1d">
             <vueper-slides
               :visible-slides="3"
               slide-multiple
-              gap="1"
               :breakpoints="{ 900: { visibleSlides: 1, slideMultiple: 1, gap:0 },1200: { visibleSlides: 2, slideMultiple: 2  } }"
               :bullets="false"
-              fixedHeight="500px">
+              fixedHeight="400px">
               <template v-slot:arrow-left>
                 <i class="fas fa-chevron-left text-white"></i>
               </template>
@@ -35,7 +37,7 @@
                 </template>
               </vueper-slide>
             </vueper-slides>
-          </div>
+          </v-sheet>
         </div>
 
     </div>

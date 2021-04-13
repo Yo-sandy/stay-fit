@@ -32,6 +32,9 @@
   <front-our-services/>
   <front-about-us-comp/>
   <front-our-classes/>
+  <front-our-trainers/>
+  <front-our-pricing-plan/>
+  <front-send-message/>
 </div>
 </template>
 
