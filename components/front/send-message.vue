@@ -1,16 +1,94 @@
 <template>
-<div class="container" style="padding: 50px">
+<div class="send-massage">
+  <div class="container size-fix" >
     <div class="row">
-      <div class="col-md-6">
-        <div class="wrapper">
-          <input class="input" placeholder="Please Enter Text" type="text" >
-          <span class="underline"></span>
-        </div>
+      <div class="services-heading " style="padding-top: 50px">
+        <h2>SEND US A MASSAGE</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" style="padding-top: 130px">
+        <template>
+          <v-form v-model="valid">
+            <v-container>
+              <v-row>
+                <v-col
+                  cols="12"
+                  md="6"
+                >
+                  <v-text-field
+                    dark
+                    v-model="firstname"
+                    :rules="nameRules"
+                    :counter="10"
+                    label="First name"
+                    required
+                  ></v-text-field>
+                </v-col>
 
+                <v-col
+                  cols="12"
+                  md="6"
+                >
+                  <v-text-field
+                    dark
+                    v-model="lastname"
+                    :rules="nameRules"
+                    :counter="10"
+                    label="Last name"
+                    required
+                  ></v-text-field>
+                </v-col>
+
+                <v-col
+                  cols="12"
+                  md="6"
+                >
+                  <v-text-field
+                    dark
+                    v-model="email"
+                    :rules="emailRules"
+                    label="E-mail"
+                    required
+                  ></v-text-field>
+                </v-col>
+                <v-col
+                  cols="12"
+                  md="6"
+                >
+                  <v-text-field
+                    dark
+                    v-model="phoneNumber"
+                    :counter="7"
+                    :error-messages="errors"
+                    label="Phone Number"
+                    required
+                  ></v-text-field>
+                </v-col>
+                <v-text-field
+                  dark
+                  label="Massage"
+                  :rules="rules"></v-text-field>
+                <v-col
+                  cols="12"
+                  md="2">
+                  <v-btn
+                    color="var(--iq-primary)"
+                    class="mr-4"
+                    @click="sendNow"
+                  >
+                    Send Now
+                  </v-btn>
+                </v-col>
+              </v-row>
+            </v-container>
+          </v-form>
+        </template>
+      </div>
+      <div class="col-md-6 couple-img">
+        <img src="/couple.png" alt="" class="img-fluid" style="max-width: 400px">
       </div>
     </div>
+  </div>
 </div>
 </template>
 
@@ -21,58 +99,5 @@ export default {
 </script>
 
 <style scoped>
-.wrapper {
-  background-color: #fff;
-  border-radius: 2px;
-  box-shadow: 0px 2px 1px 0px #ddd;
-  box-sizing: border-box;
-  height: 300px;
-  left: 50%;
-  margin: -150px 0 0 -150px;
-  position: absolute;
-  top: 50%;
-  width: 300px;
-}
-.input {
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  color: #555;
-  box-sizing: border-box;
-  font-size: 18px;
-  height: 50px;
-  left: 50%;
-  margin: -25px 0 0 -100px;
-  padding: 10px 0px;
-  position: relative;
-  top: 50%;
-  width: 200px;
-}
-.input:focus {
-  outline: none;
-}
-input::-webkit-input-placeholder {
-  color: #aaa;
-}
-input:focus::-webkit-input-placeholder {
-  color: dodgerblue;
-}
-.input:focus + .underline {
-  transform: scale(1);
-}
-.underline {
-  background-color: dodgerblue;
-  display: inline-block;
-  height: 2px;
-  left: 50px;
-  margin-top: -4px;
-  position: absolute;
-  top: 185px;
-  -webkit-transform: scale(0, 1);
-  transform: scale(0, 1);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-  width: 202px;
-}
 
 </style>

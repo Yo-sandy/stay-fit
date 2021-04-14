@@ -2,6 +2,7 @@
   <v-app>
     <front-my-navbar/>
     <Nuxt />
+    <front-my-footer/>
   </v-app>
 </template>
 

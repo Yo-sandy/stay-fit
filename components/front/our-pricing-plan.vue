@@ -10,16 +10,19 @@
               </div>
               <div class="price">
                 <h4><sup>$</sup>8</h4>
+                <h3>One Day Training</h3>
               </div>
               <div class="option">
                 <ul>
-                  <li> 10 GB Space</li>
-                  <li> 3 Domain Names</li>
-                  <li> 20 Emails Address</li>
-                  <li> >Live Support</li>
+                  <li> Onetime access to all clubs</li>
+                  <li>Group trainer</li>
+                  <li>Book a group class</li>
+                  <li>Fitness orientation</li>
                 </ul>
               </div>
-              <a href="#">Order Now</a>
+              <nuxt-link to="#" class="btn btn-join align-self-center text-dark" style="width: 150px;">
+                Sign Up Today
+              </nuxt-link>
             </div>
           </div>
           <div class="col-sm-4">
@@ -29,16 +32,19 @@
               </div>
               <div class="price">
                 <h4><sup>$</sup>25</h4>
+                <h3>12 Month Membership</h3>
               </div>
               <div class="option">
                 <ul>
-                  <li> 10 GB Space</li>
-                  <li> 3 Domain Names</li>
-                  <li> 20 Emails Addresse</li>
-                  <li> Live Support</li>
+                  <li>Group class</li>
+                  <li>Discusses fitness goals</li>
+                  <li>Group trainer</li>
+                  <li>Fitness orientation</li>
                 </ul>
               </div>
-              <a href="#">Order Now</a>
+              <nuxt-link to="#" class="btn btn-join align-self-center text-dark" style="width: 150px;">
+                Sign Up Today
+              </nuxt-link>
             </div>
           </div>
           <div class="col-sm-4">
@@ -48,16 +54,19 @@
               </div>
               <div class="price">
                 <h4><sup>$</sup>50</h4>
+                <h3>Pay Every Monthly</h3>
               </div>
               <div class="option">
                 <ul>
-                  <li> 50 GB Space</li>
-                  <li> 5 Domain Names</li>
-                  <li> 20 Emails Addresse</li>
-                  <li> Live Support</li>
+                  <li>Group class</li>
+                  <li>Group trainer</li>
+                  <li>Book a group class </li>
+                  <li>Fitness Orientation</li>
                 </ul>
               </div>
-              <a href="#">Order Now</a>
+              <nuxt-link to="#" class="btn btn-join align-self-center text-dark" style="width: 150px;">
+                 Sign Up Today
+              </nuxt-link>
             </div>
           </div>
         </div>
@@ -87,13 +96,16 @@ section {
   overflow: hidden;
   border-radius: 15px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding-bottom: 20px;
   box-shadow: 0 10px 15px rgba(0,0,0,0.3);
   transition: .5s;
 }
-.card:hover {
+.card:hover{
   transform:scale(1.1);
   border: 1px solid var(--iq-primary);
+}
+.card:hover .price h3{
+   background-color:var(--iq-primary);
 }
 .card_red, .card_red .title  {
   background: #1e1d1d;
@@ -136,6 +148,10 @@ section {
   color: #fff;
   font-size: 60px;
 }
+.price h3 {
+  padding: 10px;
+  color: #fff;
+}
 .option {
   position: relative;
   z-index: 2;
@@ -151,23 +167,5 @@ section {
   color: #fff;
   font-size: 16px;
 }
-.card a {
-  display: block;
-  position: relative;
-  z-index: 2;
-  background-color: #fff;
-  width: 150px;
-  height: 40px;
-  text-align: center;
-  margin: 20px auto 0;
-  line-height: 40px;
-  border-radius: 40px;
-  font-size: 16px;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0 5px 10px rgba(0,0,0, .1);
-}
-.card a:hover {
 
-}
 </style>

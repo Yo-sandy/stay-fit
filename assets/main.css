@@ -25,6 +25,7 @@
 /*********************************************** Join Now Button css */
 .btn-join{
   margin-top: 20px;
+   background-color:  var(--iq-primary);
 }
 .btn-join:hover {
   box-shadow: 0 0 0 18px transparent;
@@ -95,4 +96,24 @@
 .trainer-icon i{
   margin-right: 10px;
 }
-
+/********************************************** Our Trainer css close*/
+/********************************************** Send Massage css */
+.send-massage{
+  background-color: #000000;
+}
+.send-massage .couple-img{
+  text-align: center;
+}
+.send-massage .size-fix{
+  max-width: 1200px;
+}
+/********************************************** Send Massage css close*/
+/********************************************** My Footer css */
+.my-footer{
+  background-color: #1e1d1d;
+  padding: 100px;
+}
+.my-footer img{
+  max-width: 60px;
+  border-radius: 60%;
+}

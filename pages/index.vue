@@ -35,6 +35,8 @@
   <front-our-trainers/>
   <front-our-pricing-plan/>
   <front-send-message/>
+  <front-upcoming-events/>
+  <front-subscribe-channel/>
 </div>
 </template>
 
