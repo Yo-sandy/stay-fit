@@ -37,6 +37,7 @@
   <front-send-message/>
   <front-upcoming-events/>
   <front-subscribe-channel/>
+  <front-quick-contact/>
 </div>
 </template>
 

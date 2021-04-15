@@ -8,7 +8,7 @@
       </div>
       <div class="col-md-6" style="padding-top: 130px">
         <template>
-          <v-form v-model="valid">
+          <v-form  >
             <v-container>
               <v-row>
                 <v-col
@@ -17,8 +17,6 @@
                 >
                   <v-text-field
                     dark
-                    v-model="firstname"
-                    :rules="nameRules"
                     :counter="10"
                     label="First name"
                     required
@@ -31,8 +29,6 @@
                 >
                   <v-text-field
                     dark
-                    v-model="lastname"
-                    :rules="nameRules"
                     :counter="10"
                     label="Last name"
                     required
@@ -45,8 +41,6 @@
                 >
                   <v-text-field
                     dark
-                    v-model="email"
-                    :rules="emailRules"
                     label="E-mail"
                     required
                   ></v-text-field>
@@ -57,24 +51,20 @@
                 >
                   <v-text-field
                     dark
-                    v-model="phoneNumber"
                     :counter="7"
-                    :error-messages="errors"
                     label="Phone Number"
                     required
                   ></v-text-field>
                 </v-col>
                 <v-text-field
                   dark
-                  label="Massage"
-                  :rules="rules"></v-text-field>
+                  label="Massage" ></v-text-field>
                 <v-col
                   cols="12"
                   md="2">
                   <v-btn
                     color="var(--iq-primary)"
                     class="mr-4"
-                    @click="sendNow"
                   >
                     Send Now
                   </v-btn>

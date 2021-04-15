@@ -22,6 +22,17 @@
   font-weight: bold;
   font-size: 80px;
 }
+/*********************************************** Navbar css */
+.my-navbar{
+  padding: 10px;
+  background-color: #0d0e0f;
+}
+.my-navbar .navbar-toggler{
+  margin: 10px;
+  background-color:  var(--iq-primary);
+  border-color: #008000;
+}
+/*********************************************** Navbar css  close */
 /*********************************************** Join Now Button css */
 .btn-join{
   margin-top: 20px;
@@ -108,12 +119,51 @@
   max-width: 1200px;
 }
 /********************************************** Send Massage css close*/
-/********************************************** My Footer css */
+/********************************************** Quick Contact css */
 .my-footer{
   background-color: #1e1d1d;
-  padding: 100px;
+  padding: 100px 0;
 }
 .my-footer img{
   max-width: 60px;
   border-radius: 60%;
 }
+.my-footer h1{
+  margin-left: 10px;
+  margin-top: 8px;
+  color: var(--iq-white);
+}
+.my-footer p{
+  margin-top: 10px;
+  color: var(--iq-white);
+}
+.my-footer .quick-contacts h3{
+  margin-top: 10px;
+  color: var(--iq-primary);
+}
+.my-footer .quick-contacts i{
+  color: var(--iq-primary);
+  font-size: 30px;
+  margin-right: 20px;
+}
+.my-footer .contact-number {
+  margin-top: 70px;
+}
+.my-footer .contact-number i{
+  color: var(--iq-primary);
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+/********************************************** Quick Contact css close */
+/********************************************** Footer css */
+.copyright{
+  text-align: center;
+  background-color:var(--iq-primary);
+}
+.copyright p{
+  padding: unset;
+  color: var(--iq-white);
+  font-size: 20px;
+}
+/********************************************** Footer css close */
